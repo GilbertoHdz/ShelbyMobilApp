@@ -123,10 +123,16 @@ angular.module('starter', ['ionic'])
 }])
 
 .controller('DatosCtrl', function($scope) {
+
   $scope.getPosicion = function(argument) {
     var form = this;
     navigator.geolocation.getCurrentPosition(function(position) {
       form.posicion = position.coords.latitude + " -- " + position.coords.longitude;
     });
   }
+
+  $scope.sendForm = function() {
+    alert(this.nombre + " - " + this.apellidos);
+  }
+
 })

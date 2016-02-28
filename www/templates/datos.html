@@ -1,40 +1,44 @@
 <ion-view view-title="Mis Datos">
   <ion-content class="padding">
     
-    <div class="list">
-      <label for="" class="item item-input">
-        <span class="input-label">Nombre</span>
-        <input type="text" placeholder="Nombre">
-      </label>
-      <label for="" class="item item-input item-stacked-label">
-        <span class="input-label">Apellidos</span>
-        <input type="text" placeholder="Apellidos">
-      </label>
-      <div class="item item-input-inset">
-        <label for="" class="item item-input-wrapper">
-          <input type="text" placeholder="Posición" ng-model='posicion'>
+    <form action="" ng-submit="sendForm()">
+      
+      <div class="list">
+        <label for="" class="item item-input">
+          <span class="input-label">Nombre</span>
+          <input type="text" placeholder="Nombre" ng-model="nombre">
         </label>
-        <button class="button button-small" ng-click='getPosicion()'>Posición</button>
+        <label for="" class="item item-input item-stacked-label">
+          <span class="input-label">Apellidos</span>
+          <input type="text" placeholder="Apellidos" ng-model="apellidos">
+        </label>
+        <div class="item item-input-inset">
+          <label for="" class="item item-input-wrapper">
+            <input type="text" placeholder="Posición" ng-model='posicion'>
+          </label>
+          <button type="button" class="button button-small" ng-click='getPosicion()'>Posición</button>
+        </div>
+
+        <div class="item item-divider">Datos del coche</div>
+        <div class="item item-checkbox checkbox-assertive">
+          <label for="" class="checkbox">
+            <input type="checkbox">
+          </label>
+          Segunda mano
+        </div>
+        <div class="item item-toggle">
+          <label for="" class="toggle toggle-assertive">
+            <input type="checkbox">
+            <div class="track">
+              <div class="handle"></div>
+            </div>
+          </label>
+          En activo
+        </div>
       </div>
 
-      <div class="item item-divider">Datos del coche</div>
-      <div class="item item-checkbox checkbox-assertive">
-        <label for="" class="checkbox">
-          <input type="checkbox">
-        </label>
-        Segunda mano
-      </div>
-      <div class="item item-toggle">
-        <label for="" class="toggle toggle-assertive">
-          <input type="checkbox">
-          <div class="track">
-            <div class="handle"></div>
-          </div>
-        </label>
-        En activo
-      </div>
-    </div>
+      <button class="button button-block button-assertive" type="submit">Guardar</button>
+    </form>
 
-    <button class="button button-block button-assertive">Guardar</button>
   </ion-content>
 </ion-view>
