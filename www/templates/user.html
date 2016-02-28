@@ -1,0 +1,15 @@
+<ion-view view-title="Datos de Usuario">
+
+  <ion-content class="padding" ng-class="{'inactivo': !data.en_activo}">
+    <div class="mi_contenedor">
+      <div class="img_rounded">
+        <img src="img/users/{{data.foto}}" alt="">
+      </div>
+      <h2>{{data.nombre}} {{data.apellidos}}</h2>
+      <p class="rotulo">Edad: <span class="valor">{{data.edad}}</span></p>
+      <p class="rotulo">Teléfono: <span class="valor">{{data.telefono}}</span></p>
+      <p class="rotulo">Años con el auto: <span class="valor">{{data.uso}} años</span></p>
+    </div>
+  </ion-content>
+
+</ion-view>

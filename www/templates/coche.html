@@ -1,0 +1,23 @@
+<ion-view view-title="Información Técnica">
+
+  <ion-nav-buttons side="secondary">
+    <button class="button button-icon ion-navicon" ng-click="data.showReorder = !data.showReorder"></button>
+  </ion-nav-buttons>
+
+	<ion-content class="padding">
+
+		<ion-list class="list" show-reorder="data.showReorder">
+      <ion-item class="item-thumbnail-left item-text-wrap" 
+          ng-repeat="item in detalles" ng-click="toggleDescription(item)"
+          ng-class="{'noresumido' : item.resumido}">
+
+        <img src="img/recortes/{{item.foto}}">
+        <h3>{{item.titulo}}</h3>
+        <p ng-show="!item.resumido">{{item.descripcion | limitTo: 85}} {{item.descripcion.length > 85 ? '&hellip;' : ''}}</p>
+        <p ng-show="item.resumido">{{item.descripcion}}</p>
+        <ion-reorder-button class="ion-navicon" on-reorder="moveItem(item, $fromIndex, $toIndex)"></ion-reorder-button>
+      </ion-item>
+
+    </ion-list>
+	</ion-content>
+</ion-view>

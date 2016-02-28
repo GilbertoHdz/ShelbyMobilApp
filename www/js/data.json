@@ -1,0 +1,76 @@
+{
+  "detalles": [
+    {
+      "foto": "Shelby_1.png",
+      "titulo": "Interior",
+      "descripcion": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu."
+    }, {
+      "foto": "Shelby_2.png",
+      "titulo": "Mecánica",
+      "descripcion": "In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet."
+    }, {
+      "foto": "Shelby_3.png",
+      "titulo": "Ruedas",
+      "descripcion": "Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus."
+    }, {
+      "foto": "Shelby_4.png",
+      "titulo": "Diseño",
+      "descripcion": "Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc, quis gravida magna mi a libero. Fusce vulputate eleifend sapien. Vestibulum purus quam, scelerisque ut, mollis sed, nonummy id, metus."
+    }, {
+      "foto": "Shelby_5.png",
+      "titulo": "Refrigeración",
+      "descripcion": "Nullam accumsan lorem in dui. Cras ultricies mi eu turpis hendrerit fringilla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In ac dui quis mi consectetuer lacinia. Nam pretium turpis et arcu. Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum. Sed aliquam ultrices mauris."
+    }, {
+      "foto": "Shelby_6.png",
+      "titulo": "Motor",
+      "descripcion": "Integer ante arcu, accumsan a, consectetuer eget, posuere ut, mauris. Praesent adipiscing. Phasellus ullamcorper ipsum rutrum nunc. Nunc nonummy metus. Vestibulum volutpat pretium libero. Cras id dui. Aenean ut eros et nisl sagittis vestibulum. Nullam nulla eros, ultricies sit amet, nonummy id, imperdiet feugiat, pede. Sed lectus. Donec mollis hendrerit risus."
+    }, {
+      "foto": "Shelby_7.png",
+      "titulo": "Mandos",
+      "descripcion": "Phasellus nec sem in justo pellentesque facilisis. Etiam imperdiet imperdiet orci. Nunc nec neque. Phasellus leo dolor, tempus non, auctor et, hendrerit quis, nisi. Curabitur ligula sapien, tincidunt non, euismod vitae, posuere imperdiet, leo. Maecenas malesuada. Praesent congue erat at massa. Sed cursus turpis vitae tortor. Donec posuere vulputate arcu. Phasellus accumsan cursus velit."
+    }, {
+      "foto": "Shelby_8.png",
+      "titulo": "Carrocería",
+      "descripcion": "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Sed aliquam, nisi quis porttitor congue, elit erat euismod orci, ac placerat dolor lectus quis orci. Phasellus consectetuer vestibulum elit. Aenean tellus metus, bibendum sed, posuere ac, mattis non, nunc. Vestibulum fringilla pede sit amet augue. In turpis. Pellentesque posuere. Praesent turpis."
+    }
+  ],
+  "usuarios": [
+    {
+      "nombre": "Robert",
+      "apellidos": "López Smith",
+      "edad": 65,
+      "telefono": "6668889994",
+      "en_activo": true,
+      "foto":"foto1.jpg",
+      "uso": 3,
+      "id": 0
+    },{
+      "nombre": "Carlos",
+      "apellidos": "Fernández Soto",
+      "edad": 62,
+      "telefono": "5556777744",
+      "en_activo": false,
+      "foto":"foto2.jpg",
+      "uso": 4,
+      "id": 1
+    },{
+      "nombre": "Tom",
+      "apellidos": "Stone",
+      "edad": 46,
+      "telefono": "543332233",
+      "en_activo": true,
+      "foto":"foto3.jpg",
+      "uso": 1,
+      "id": 2
+    },{
+      "nombre": "Anna",
+      "apellidos": "Smith",
+      "edad": 47,
+      "telefono": "876635445",
+      "en_activo": true,
+      "foto":"foto4.jpg",
+      "uso": 2,
+      "id": 3
+    }
+  ]
+}

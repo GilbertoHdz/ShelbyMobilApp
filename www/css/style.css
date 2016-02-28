@@ -1,0 +1,47 @@
+/* Empty. Add your own CSS if you like */
+
+.noresumido{
+	background-color: #FDF2D1 !important;
+}
+
+.noresumido .item-content{
+	background: transparent;
+}
+
+.mi_contenedor{
+	width: 90%;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+.mi_contenedor h2{
+	text-align: center;
+	background-color: #fdf2d1;
+}
+
+.img_rounded{
+	border-radius: 8px;
+	overflow: hidden;
+	width: 214px;
+	height: 236px;
+	margin: 0 auto;
+}
+
+.img_rounded img{
+	width: 100%;
+}
+
+.rotulo{
+	color: #666666;
+}
+
+.valor{
+	color: #333333;
+	font-size: 1.4em;
+	font-weight: bold;
+}
+
+ion-content.inactivo{
+	opacity: 0.4;
+	background-color: #FDF2D1;
+}

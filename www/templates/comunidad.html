@@ -1,0 +1,23 @@
+<ion-view view-title="Comunidad">
+  
+  <div class="bar bar-subheader item-input-inset">
+    <label class="item-input-wrapper">
+      <i class="icon ion-search placeholder-icon"></i>
+      <input type="search" placehorder ng-model="query">
+    </label>
+  </div>
+
+	<ion-content class="has-subheader">
+    <ion-list>
+      
+      <ion-item class="item-avatar item-icon-right" ng-repeat="item in usuarios | filter: query" href="#/tab/user/{{item.id}}">
+        <img src="img/users/{{item.foto}}">
+        <h2>{{item.nombre}} {{item.apellidos}}</h2>
+        <p>{{item.telefono}}</p>
+        <a href="tel:{{item.telefono}}" class="button button-icon icon ion-ios-telephone"></a>
+      </ion-item>
+
+    </ion-list>
+	</ion-content>
+
+</ion-view>
